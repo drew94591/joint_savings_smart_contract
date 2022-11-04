@@ -21,17 +21,43 @@ To use the joint savings smart contract you must first launch Remix by opening u
 https://remix.ethereum.org
 ```
 
-Then compile and deploy the following smart contract onto the Ethereum blockchain:
+Then compile and deploy the following smart contract solidity code onto the Ethereum blockchain:
 
 ```Solidity
 joint_savings.sol
 ```
 
-As is illustrated below:
+###Initiate setAccounts function for 2 addresses:
 
 ![SetAccounts](Execution_Results/setAccounts.GIF)
 
+###Send 1 ETH as Wei to joint savings smart contract:
 
+![Transaction 1](Execution_Results/send_1_ether_as_wei.GIF)
+
+###Send 10 ETH as wei to joint savings smart contract:
+
+![Transaction 2](Execution_Results/send_10_ether_as_wei.GIF)
+
+###Send 5 ETH to joint savings smart contract:
+
+![Transaction 3](Execution_Results/send_5_ether.GIF)
+
+###Withdraw 5 ETH from joint savings into account one:
+
+![Transaction 4](Execution_Results/withdraw_5_ether_accountOne.GIF)
+
+###Withdraw 10 ETH from joint savings into account two:
+
+![Transaction 5](Execution_Results/withdraw_10_ether_accountTwo.GIF)
+
+###Show last to withdraw account address:
+
+![Transaction 6](Execution_Results/lastToWithdraw.GIF)
+
+###Show last to withdraw amount:
+
+![Transaction 7](Execution_Results/lastWithdrawAmount.GIF)
 ---
 
 ## Contributors
